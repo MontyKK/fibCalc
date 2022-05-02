@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Последовательность Фибоначчи</title>
+    <link rel="icon" href="icon.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="pinned" id="pageMenu">
+        <h1>Последовательность Фибоначчи</h1>
+        <label for="fibInput">Введите требуемую длинну</label>
+        <input type="text" id="fibInput" />
+        <button class="btn" id="fibCalc">
+          <i class="material-icons right">arrow_forward</i>
+          Вычислить
+        </button>
+      </div>
+    </div>
+    <div class="container" id="pageInfo">
+      <h2 id="fibHeader"></h2>
+      <ul id="fibContainer"></ul>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
